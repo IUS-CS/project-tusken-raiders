@@ -8,5 +8,5 @@ If it is the same then it will keep it the same.
 At the end of the program running it will then show all of the ID's of the items that it has changed and all of the prices it changed to.
 
 If in the case of our program can not find the file it will prompt the user to run our program using the file in the command line and manually open all of it.
-If the file doe4s not have any changes it will show no changes.
+If the file does not have any changes it will show no changes.
 If the program does not have correct access to the file it will then prompt the user to run it inside of admin and then access the program and file via the command line.
