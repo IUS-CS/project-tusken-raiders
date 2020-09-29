@@ -4,6 +4,7 @@
 // The website will look more better when angular and front end development is learned.
 
 
+
 const express = require("express");
 const { request, response } = require("express");
 
@@ -17,7 +18,7 @@ let Apples = {
     Sku: "4401",
     price: "1.49 per pound",
     salePrice: ".99 cents per pound",
-    IsItemOnSale: "yes for this week"
+    IsItemOnSale: "Yes for this week"
 
 }
 
@@ -25,7 +26,7 @@ let Pears = {
     Sku: "4802",
     price: "1.85 per pound",
     salePrice: "1.09 cents per pound",
-    IsItemOnSale: "yes for this week"
+    IsItemOnSale: "Not for this week"
 
 }
 
@@ -34,32 +35,83 @@ let Lettuce = {
     Sku: "5341",
     price: "1.85 per pound",
     salePrice: "1.09 cents per pound",
-    IsItemOnSale: "yes for this week"
+    IsItemOnSale: "Yes for this week"
 
 }
 
 
 let Peppers = {
-    Sku: "5341",
-    price: "1.85 per pound",
-    salePrice: "1.09 cents per pound",
-    IsItemOnSale: "yes for this week"
+    Sku: "3325",
+    price: ".79 per pound",
+    salePrice: ".39 cents per pound",
+    IsItemOnSale: "Yes for this week"
+
+}
+
+let Potatoes = {
+    Sku: "1129",
+    price: "2.85 per bag",
+    salePrice: "1.99 per bag",
+    IsItemOnSale: "Not for this week"
+
+}
+
+
+let Milk = {
+    Sku: "11332265",
+    price: "3.00 per carton",
+    salePrice: "2.49 per carton",
+    IsItemOnSale: "Yes for this week"
 
 }
 
 
 
-app.get("/about", (request, response) => {
 
-    response.json(Apples);   // Displays Apples info to the web for the team member to see
+let Chips = {
+    Sku: "34509122",
+    price: "2.99 per bag",
+    salePrice: "1.99 per bag",
+    IsItemOnSale: "Not for this week"
+
+}
+
+let Ham = {
+    Sku: "44611299",
+    price: "1.75 per pound",
+    salePrice: "1.50 per pound",
+    IsItemOnSale: "Yes for this week"
+
+}
+
+
+let Bologna = {
+    Sku: "44611299",
+    price: "1.39 per pound",
+    salePrice: ".99 per pound",
+    IsItemOnSale: "Not for this week"
+
+}
+
+
+
+
+
+// searches for the item and their related information
+
+app.get("/Apples", (request, response) => {
+
+    response.json(Apples);// Displays Apples info to the web for the team member to see
+
+});
+
+app.get("/Pears", (request, response) => {
+
+    response.json(Pears);   // Displays Pears info to the web for the team member to see
 
 });
 
 
+
 app.listen(4000);  // This is the port we are listening on and using
-
-
-
-
-
 
