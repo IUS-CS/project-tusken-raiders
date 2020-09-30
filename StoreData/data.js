@@ -15,6 +15,7 @@ let app = express()
 // These are the store products and the information they have in them
 
 let Apples = {
+    item: "Apples",
     Sku: "4401",
     price: "1.49 per pound",
     salePrice: ".99 cents per pound",
@@ -23,6 +24,7 @@ let Apples = {
 }
 
 let Pears = {
+    item: "Pears",
     Sku: "4802",
     price: "1.85 per pound",
     salePrice: "1.09 cents per pound",
@@ -32,6 +34,7 @@ let Pears = {
 
 
 let Lettuce = {
+    item: "Lettuce",
     Sku: "5341",
     price: "1.85 per pound",
     salePrice: "1.09 cents per pound",
@@ -41,6 +44,7 @@ let Lettuce = {
 
 
 let Peppers = {
+    item: "Peppers",
     Sku: "3325",
     price: ".79 per pound",
     salePrice: ".39 cents per pound",
@@ -49,6 +53,7 @@ let Peppers = {
 }
 
 let Potatoes = {
+    item: "Potatoes",
     Sku: "1129",
     price: "2.85 per bag",
     salePrice: "1.99 per bag",
@@ -58,6 +63,7 @@ let Potatoes = {
 
 
 let Milk = {
+    item: "Milk",
     Sku: "11332265",
     price: "3.00 per carton",
     salePrice: "2.49 per carton",
@@ -66,9 +72,8 @@ let Milk = {
 }
 
 
-
-
 let Chips = {
+    item: "Chips",
     Sku: "34509122",
     price: "2.99 per bag",
     salePrice: "1.99 per bag",
@@ -77,6 +82,7 @@ let Chips = {
 }
 
 let Ham = {
+    item: "Ham",
     Sku: "44611299",
     price: "1.75 per pound",
     salePrice: "1.50 per pound",
@@ -86,6 +92,7 @@ let Ham = {
 
 
 let Bologna = {
+    item: "Bologna",
     Sku: "44611299",
     price: "1.39 per pound",
     salePrice: ".99 per pound",
@@ -110,6 +117,21 @@ app.get("/Pears", (request, response) => {
     response.json(Pears);   // Displays Pears info to the web for the team member to see
 
 });
+
+
+app.get("/Lettuce", (request, response) => {
+
+    response.json(Lettuce);   // Displays Lettuce info to the web for the team member to see
+
+});
+
+app.get("/Peppers", (request, response) => {
+
+    response.json(Peppers);   // Displays Peppers info to the web for the team member to see
+
+});
+
+
 
 
 
