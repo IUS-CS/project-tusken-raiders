@@ -102,8 +102,6 @@ let Bologna = {
 
 
 
-
-
 // searches for the item and their related information
 
 app.get("/Apples", (request, response) => {
