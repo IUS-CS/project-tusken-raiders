@@ -1,5 +1,3 @@
-
-
 // This is the start of the data for our store and will also be displaying it to the web when the store team member searches for the item.
 // The website will look more better when angular and front end development is learned.
 
