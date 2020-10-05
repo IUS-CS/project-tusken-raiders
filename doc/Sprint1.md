@@ -4,7 +4,7 @@ Date: 2020-09-21
 
 Members present:
 
-* Connor Mayfield
+* Conner Mayfield
 * Chad Wilson
 * Harris Chaudhary
   
