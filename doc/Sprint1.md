@@ -21,9 +21,9 @@ Members present:
   
   ![Demo 1](images/demo1.PNG?raw=true "Demo 1")
   
-  ![Demo 1](images/demo2.PNG?raw=true "Demo 1")
+  ![Demo 1](images/demo2.png?raw=true "Demo 1")
   
-  ![Demo 1](images/demo3.PNG?raw=true "Demo 1")
+  ![Demo 1](images/demo3.png?raw=true "Demo 1")
 
 
   
