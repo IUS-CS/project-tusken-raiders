@@ -85,7 +85,7 @@ let Ham = {
     price: "1.75 per pound",
     salePrice: "1.50 per pound",
     IsItemOnSale: "Yes for this week"
-
+    
 }
 
 
@@ -126,10 +126,6 @@ app.get("/Peppers", (request, response) => {
     response.json(Peppers);   // Displays Peppers info to the web for the team member to see
 
 });
-
-
-
-
 
 app.listen(4000);  // This is the port we are listening on and using
 
