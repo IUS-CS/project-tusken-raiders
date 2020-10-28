@@ -1,6 +1,6 @@
 import { Profile } from "../models/DataProductInfo";
 
-export const STORE_DATA: Profile[] = [
+export const PROFILE: Profile[] = [
 
   { item: 'Apples', inquiry: { sku: 4401,price: 1.49,SalePrice: .99, IsItemOnSale: 'Yes'}},
   { item: 'Pears', inquiry: { sku: 4802,price: 1.85,SalePrice: 1.09, IsItemOnSale: 'No'}},
