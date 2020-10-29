@@ -11,13 +11,16 @@ export class ProfileContainerComponent implements OnInit {
   selectedProfile: Profile;
   profiles = PROFILE;
 
-  onSelect(profile: Profile) {
-    this.selectedProfile = profile;
-  }
+
 
   constructor() { }
 
-  ngOnInit() {
+  ngOnInit(): void {
   }
+
+  onSelect(profile: Profile): void {
+    this.selectedProfile = profile;
+  }
+
 
 }
