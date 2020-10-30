@@ -19,7 +19,12 @@ describe('ProfileContainerComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it('should create the profile-container', () => {
     expect(component).toBeTruthy();
   });
+// profile-container unit test/testing
+  it('should say "No store item selected! Store team member please select an item to search." ', () => {
+    expect(component.UnitTestForClickOption).toBe('No store item selected! Store team member please select an item to search.');
+  });
+
 });
