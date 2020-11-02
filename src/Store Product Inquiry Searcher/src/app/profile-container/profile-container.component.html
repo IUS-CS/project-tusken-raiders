@@ -1,0 +1,13 @@
+Store Items:
+
+<ul>
+  <li *ngFor="let profile of profiles" (click)="onSelect(profile)">{{profile.item}}</li>
+</ul>
+
+<div *ngIf="selectedProfile">
+  <app-profile [profile]="selectedProfile"></app-profile>
+</div>
+
+<div *ngIf="!selectedProfile">
+  No store item selected! Store team member please select an item to search.
+</div>

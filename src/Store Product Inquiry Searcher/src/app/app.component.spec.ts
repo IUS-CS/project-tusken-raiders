@@ -13,23 +13,18 @@ describe('AppComponent', () => {
       ],
     }).compileComponents();
   });
-
+// unit test to test if the app is created
   it('should create the app', () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
     expect(app).toBeTruthy();
   });
-
-  it(`should have as title 'my-angular-project'`, () => {
+// unit test to see if should have as title 'Store Product Inquiry Searcher is displayed to the user
+  it(`should have as title 'Store Product Inquiry Searcher'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('my-angular-project');
+    expect(app.title).toEqual('Store Product Inquiry Searcher');
   });
 
-  it('should render title', () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    fixture.detectChanges();
-    const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('my-angular-project app is running!');
-  });
+
 });
