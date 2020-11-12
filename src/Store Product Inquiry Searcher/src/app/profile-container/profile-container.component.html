@@ -1,8 +1,18 @@
 Store Items:
+<div class="btn-group btn-group-toggle" ngbRadioGroup name="radioBasic" [(ngModel)]="model">
+  <label ngbButtonLabel class="btn-primary">
+    <input ngbButton type="radio" [value]="1"> Left (pre-checked)
+  </label>
+  <label ngbButtonLabel class="btn-primary">
+    <input ngbButton type="radio" value="middle"> Middle
+  </label>
+  <label ngbButtonLabel class="btn-primary">
+    <input ngbButton type="radio" [value]="false"> Right
+  </label>
+</div>
+<hr>
+<pre>{{model}}</pre>
 
-<ul>
-  <li *ngFor="let profile of profiles" (click)="onSelect(profile)">{{profile.item}}</li>
-</ul>
 
 <div *ngIf="selectedProfile">
   <app-profile [profile]="selectedProfile"></app-profile>
