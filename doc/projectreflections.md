@@ -5,4 +5,4 @@ Conners experience is:when he was talking to Professor Sexton over dicord that I
 instead of hving straight up HTML or Css which did not work for our situation. Also he needed angular so he could connect by data to the frnt end website so a client/user could
 see it and interact with all of the components that we had created for the website.
 
-Harris experience:
+Harris experience: his experience has been good. he has mostly worked on the deliverables side of the project such as creating md files and rigor projects on github. At first they seemed pointless and effortless but as he kept working on them, they serve a genuine purpose to every part in out project. From sprint 1 to 4, each will show you how far our project has progressed and that is mesmerizing.
