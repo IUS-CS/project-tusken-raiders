@@ -1,13 +1,24 @@
-Store Items:
 
-<ul>
-  <li *ngFor="let profile of profiles" (click)="onSelect(profile)">{{profile.item}}</li>
-</ul>
+<header>
+  <div class="brand">
+    <h5>Store Product Inquiry</h5>
+    <div class="topnav">
+    </div>
+  </div>
+</header>
+
+
+<div class="btn-group btn-group-toggle" ngbRadioGroup name="radioBasic" [(ngModel)]="selectedProfile">
+  <label ngbButtonLabel class="btn-primary" *ngFor="let profile of profiles">
+    <input ngbButton type="radio" [value]="profile">{{profile.item}}
+  </label>
+</div>
+
 
 <div *ngIf="selectedProfile">
   <app-profile [profile]="selectedProfile"></app-profile>
 </div>
 
 <div *ngIf="!selectedProfile">
-  No store item selected! Store team member please select an item to search.
+  No store item selected! Store team member please select an item....
 </div>
