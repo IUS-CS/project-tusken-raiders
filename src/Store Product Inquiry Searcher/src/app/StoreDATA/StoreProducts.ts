@@ -12,6 +12,7 @@ export const PROFILE: Profile[] = [
   { item: 'Chips', inquiry: { sku: 34509122,price: 2.99,SalePrice: 1.99, IsItemOnSale: 'No'}},
   { item: 'Ham', inquiry: { sku: 44611299,price: 1.75,SalePrice: 1.50, IsItemOnSale: 'Yes'}},
   { item: 'Bologna', inquiry: { sku: 44611299,price: 1.39,SalePrice: .99, IsItemOnSale: 'No'}},
+  { item: 'Pumpkin Pie', inquiry: { sku: 95651210,price: 5.39,SalePrice: 4.25, IsItemOnSale: 'No'}},
 
 
 

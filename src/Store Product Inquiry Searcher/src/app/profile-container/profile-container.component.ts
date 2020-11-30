@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Profile } from '../models/DataProductInfo'
+import { Profile } from '../models/DataProductInfo';
 import { PROFILE } from '../StoreDATA/StoreProducts';
 
 @Component({

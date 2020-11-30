@@ -1,6 +1,6 @@
 
 import { Component, OnInit, Input } from '@angular/core';
-import { Profile } from '../models/DataProductInfo';  // might be other data file
+import { Profile } from '../models/DataProductInfo';
 
 @Component({
   selector: 'app-profile',
